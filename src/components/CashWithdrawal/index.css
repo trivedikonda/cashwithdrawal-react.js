@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+
+.container {
+  background-color: #150b3e;
+  border-radius: 20px;
+  width: 50%;
+  font-family: 'Roboto';
+}
+
+.inner-container {
+  padding: 30px;
+}
+
+.top-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile {
+  border-radius: 40px;
+  margin-right: 12px;
+  height: 40px;
+  width: 40px;
+  background-color: #c7d2fe;
+  padding: 9px;
+  color: #7c3aed;
+  font-size: 18px;
+  text-align: center;
+}
+
+.user-name {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.balance-container {
+  padding: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.para {
+  color: #585076;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.count {
+  color: #ffffff;
+  font-size: 32px;
+}
+
+.in-rupees {
+  color: #585076;
+  font-size: 15px;
+}
+
+.withdraw {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.denominations-list {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

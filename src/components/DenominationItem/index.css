@@ -1,0 +1,18 @@
+/* Write your CSS here */
+
+.each-value {
+  list-style-type: none;
+}
+
+.value-btn {
+  height: 30px;
+  width: 120px;
+  background-color: #585076;
+  margin: 10px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+}
